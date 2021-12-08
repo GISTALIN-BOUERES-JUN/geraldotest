@@ -96,8 +96,8 @@ export default function UserList() {
             <Header />
 
             <Modal isOpen={isModalOpen} onRequestClose={handleCloseModal} overlayClassName="react-modal-overlay" className="react-modal_content">
-                <Box flex="1" borderRadius={8} bg="gray.800" p="8" bg="#e7e9ee" alignContent="center">
-                    <Text fontSize="3xl" color="black">Create User</Text>
+                <Box flex="1" borderRadius={8}  p="8" bg="#e7e9ee" alignContent="center">
+                    <Text fontSize="3xl" color="black">Create New User</Text>
                     <Input placeholder="First Name" mb="2" color="black" value={firstName} onChange={event => setFirstName(event.target.value)} ></Input>
                     <Input placeholder="Last Name" mb="2" color="black" value={lastName} onChange={event => setLastName(event.target.value)} ></Input>
                     <FormControl id='email'>
