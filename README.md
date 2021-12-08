@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+The application lists users directly from a Fake API (Miraje Js) running on localhost according to the Test specifications. A Modal was also created for entering data to create new users.
+
+![MainScreen](https://user-images.githubusercontent.com/31703812/145278912-bb56114f-a65d-4098-aded-4ff8550b54f0.jpg)
+![modal](https://user-images.githubusercontent.com/31703812/145278992-b5c422f5-d517-4a14-9074-cb6663a96fdd.jpg)
+
+
 ## Getting Started
 
 First, run the development server:
